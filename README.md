@@ -12,7 +12,7 @@
 ![](https://streak-stats.demolab.com?user=anoopsinghtomar&background=FFFFFF&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideNums=138808&sideLabels=138808&dates=000080&hide_border=false)
 <!-- Top Languages -->
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?anoopsinghtomar=octocat&layout=compact&hide_border=false&count_private=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&layout=compact&hide_border=false&count_private=false)
 ---
 [![](https://visitcount.itsvg.in/api?id=anoopsinghtomar&icon=0&color=1)](https://visitcount.itsvg.in)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anoopsinghtomar&label=Profile%20views&color=0e75b6&style=flat" alt="anoopsinghtomar" /> </p>
