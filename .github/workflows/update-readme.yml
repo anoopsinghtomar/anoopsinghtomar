@@ -2,17 +2,20 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # runs daily at midnight UTC
+    - cron: "0 */1 * * *" # Runs every hour at minute
   push:
     branches:
       - main
       - master
+  workflow_dispatch:    
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       
       - name: Update README with GitHub Stats
         uses: anuraghazra/github-readme-stats@master
