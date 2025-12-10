@@ -7,11 +7,11 @@
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=flat&logo=apachekafka) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat&logo=jenkins&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white)
 # 📊 GitHub Stats:
 <!-- Main Stats -->
-![](https://stats.dooboo.io/api/github-stats?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=ffffff&hide_border=false)
+![](https://github-readme-stats.vercel.app/api?username=anoopsinghtomar&token=${{ secrets.GH_README_TOKEN }}&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&hide_border=false&include_all_commits=true&count_private=true)
 <!-- Streak Stats -->
 ![](https://streak-stats.demolab.com?user=anoopsinghtomar&background=FFFFFF&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideNums=138808&sideLabels=138808&dates=000080&hide_border=false)
 <!-- Top Languages -->
-![](https://stats.dooboo.io/api/top-langs?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=ffffff&layout=compact&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&token=${{ secrets.GH_README_TOKEN }}&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=anoopsinghtomar&icon=0&color=1)](https://visitcount.itsvg.in)
