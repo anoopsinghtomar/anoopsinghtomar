@@ -12,7 +12,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: generated/overview.svg
-          token: ${{ secrets.GH_README_TOKEN }}
+          token: ${{ secrets.METRICS_CLASSIC_TOKEN }}
           base: header, activity, community, repositories
 
           plugin_activity: yes
