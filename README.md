@@ -14,8 +14,14 @@ I'm Anoop Singh Tomar
 <!-- Top Languages -->
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&layout=compact&hide_border=false&count_private=false)
----
 
+### 📊 GitHub Activity Overview
+![](./generated/overview.svg)
+
+### 🧠 Most Used Languages
+![](./generated/languages.svg)
+
+---
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anoopsinghtomar&theme=minimal)
 
 [![](https://visitcount.itsvg.in/api?id=anoopsinghtomar&icon=0&color=1)](https://visitcount.itsvg.in)
