@@ -1,4 +1,5 @@
-## Hi there, I'm Anoop Singh Tomar
+## Hi there, Nice to see you
+I'm Anoop Singh Tomar
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/anoop.singh.338) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anoopsinghtomar/) 
@@ -14,5 +15,9 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&layout=compact&hide_border=false&count_private=false)
 ---
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anoopsinghtomar&theme=minimal)
+
+
 [![](https://visitcount.itsvg.in/api?id=anoopsinghtomar&icon=0&color=1)](https://visitcount.itsvg.in)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anoopsinghtomar&label=Profile%20views&color=0e75b6&style=flat" alt="anoopsinghtomar" /> </p>
