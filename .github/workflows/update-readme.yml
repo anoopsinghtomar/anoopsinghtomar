@@ -1,0 +1,37 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # runs daily at midnight UTC
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Update README with GitHub Stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          github_token: ${{ secrets.GH_README_TOKEN }}
+          username: anoopsinghtomar
+          output: README.md
+          title_color: FF9933
+          text_color: 138808
+          icon_color: 000080
+          bg_color: FFFFFF
+          include_all_commits: true
+          count_private: true
+          layout: compact
+          
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update GitHub stats" || echo "No changes to commit"
+          git push
