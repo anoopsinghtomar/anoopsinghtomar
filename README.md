@@ -13,7 +13,6 @@ I'm Anoop Singh Tomar
 ![](https://streak-stats.demolab.com?user=anoopsinghtomar&background=FFFFFF&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideNums=138808&sideLabels=138808&dates=000080&hide_border=false)
 <!-- Top Languages -->
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=anoopsinghtomar&layout=compact&hide_border=false&count_private=false)
 
 ### 📊 GitHub Activity Overview
 ![](./generated/overview.svg)
