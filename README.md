@@ -12,28 +12,8 @@ I'm Anoop Singh Tomar
 |----------|-----------|
 | ![](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&hide_border=false&include_all_commits=true&count_private=true) | ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true) |
 
-
-<!-- GitHub Stats -->
-![](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&hide_border=false&include_all_commits=true&count_private=true)
-
-<!-- Top Languages -->
-![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
-
 <!-- Streak Stats (this stays external – correct as-is) -->
 ![](https://streak-stats.demolab.com/?user=anoopsinghtomar&cache_seconds=86400)
-
-## TESTING
-[![Readme Card](https://profile-readme-analytics.vercel.app/api/pin/?username=anoopsinghtomar&repo=REPO_NAME)](...)
-
-## 🏆 GitHub Achievements
-![](https://github-profile-trophy.vercel.app/?username=anoopsinghtomar&theme=flat&no-frame=true&row=1)
-
-| Stats | Languages |
-|------|-----------|
-| ![](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar) | ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&layout=compact) |
-
-
-## TESTING
 
 ### 📊 GitHub Activity Overview
 ![](./generated/overview.svg)
@@ -46,3 +26,4 @@ I'm Anoop Singh Tomar
 
 [![](https://visitcount.itsvg.in/api?id=anoopsinghtomar&icon=0&color=1)](https://visitcount.itsvg.in)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anoopsinghtomar&label=Profile%20views&color=0e75b6&style=flat" alt="anoopsinghtomar" /> </p>
+
