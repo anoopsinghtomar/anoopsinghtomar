@@ -20,6 +20,18 @@ I'm Anoop Singh Tomar
 ### 🧠 Most Used Languages
 ![](./generated/languages.svg)
 
+### TEST ONE
+![GitHub Stats](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar)
+
+### TEST TWO
+![Anoop's GitHub Stats](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar&show_icons=true&theme=tokyonight)
+
+### TEST THREE
+![Top Languages](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&layout=compact)
+
+### TEST FOUR
+![Top Languages](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&layout=compact&theme=tokyonight)
+
 ---
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anoopsinghtomar&theme=minimal)
 
