@@ -17,6 +17,18 @@ I'm Anoop Singh Tomar
 <!-- Top Languages -->
 ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
 
+## TESTING
+[![Readme Card](https://profile-readme-analytics.vercel.app/api/pin/?username=anoopsinghtomar&repo=REPO_NAME)](...)
+
+## 🏆 GitHub Achievements
+![](https://github-profile-trophy.vercel.app/?username=anoopsinghtomar&theme=flat&no-frame=true&row=1)
+
+| Stats | Languages |
+|------|-----------|
+| ![](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar) | ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&layout=compact) |
+
+
+## TESTING
 
 ### 📊 GitHub Activity Overview
 ![](./generated/overview.svg)
