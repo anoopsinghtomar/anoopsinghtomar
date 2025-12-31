@@ -1,5 +1,5 @@
-## Hi there, Nice to see you
-I'm Anoop Singh Tomar
+## Hi there,
+I'm Anoop Singh Tomar. Experienced QA Automation Engineer focused on building intelligent, autonomous test automation using Data Science and Agentic AI. Deep experience with Java, Python, Selenium, REST API automation, BDD, and CI/CD pipelines, combined with statistical analysis, data-driven testing, and agent-based workflows to enable self-optimizing, scalable, and resilient quality engineering systems. 
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/anoop.singh.338) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anoopsinghtomar/) 
