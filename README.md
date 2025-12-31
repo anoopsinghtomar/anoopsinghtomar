@@ -14,12 +14,6 @@ I'm Anoop Singh Tomar
 <!-- Streak Stats (this stays external – correct as-is) -->
 ![](https://streak-stats.demolab.com/?user=anoopsinghtomar&cache_seconds=86400)
 
-<picture>
-  <img src="https://streak-stats.demolab.com/?user=anoopsinghtomar&v=1" />
-</picture>
-
-
-
 <!-- Top Languages -->
 ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
 
