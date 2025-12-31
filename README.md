@@ -14,7 +14,7 @@ I'm Anoop Singh Tomar
 <!-- Streak Stats (this stays external – correct as-is) -->
 ![](https://streak-stats.demolab.com/?user=anoopsinghtomar&cache_seconds=86400)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=anoopsinghtomar&v=1)
+![GitHub Streak](https://streak-stats.demolab.com/?user=anoopsinghtomar&v=4)
 
 
 <!-- Top Languages -->
