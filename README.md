@@ -12,7 +12,7 @@ I'm Anoop Singh Tomar
 ![](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&hide_border=false&include_all_commits=true&count_private=true)
 
 <!-- Streak Stats (this stays external – correct as-is) -->
-![](https://streak-stats.demolab.com?user=anoopsinghtomar)
+![GitHub Streak](https://streak-stats.demolab.com/?user=anoopsinghtomar&cache_seconds=86400)
 
 <!-- Top Languages -->
 ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true)
