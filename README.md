@@ -35,11 +35,11 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 <!-- Streak Stats (this stays external – correct as-is) -->
 ![](https://streak-stats.demolab.com/?user=anoopsinghtomar&cache_seconds=86400)
 
-### 📊 GitHub Activity Overview
-![](./generated/overview.svg)
+<!-- ### 📊 GitHub Activity Overview
+![](./generated/overview.svg)  -->
 
-### 🧠 Most Used Languages
-![](./generated/languages.svg)
+<!-- ### 🧠 Most Used Languages
+![](./generated/languages.svg)  -->
 
 ---
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anoopsinghtomar&theme=minimal)
