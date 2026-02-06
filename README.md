@@ -79,13 +79,8 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="./generated/overview.svg" alt="GitHub Metrics Overview" />
-</p>
-
-<p align="center">
-  <img src="./generated/languages.svg" alt="Most Used Languages" />
-</p>
+![GitHub Overview](./generated/overview.svg)
+![Languages](./generated/languages.svg)
 
 <!-- Streak Stats (this stays external – correct as-is) -->
 ![](https://streak-stats.demolab.com/?user=anoopsinghtomar&cache_seconds=86400)
