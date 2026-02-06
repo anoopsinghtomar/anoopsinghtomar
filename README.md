@@ -71,11 +71,21 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 ### 🔧 Version Control
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-# 📊 GitHub Stats:
+<!-- # 📊 GitHub Stats:
 
 | Statstics | Languages |
 |----------|-----------|
-| ![](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&hide_border=false&include_all_commits=true&count_private=true) | ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true) |
+| ![](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&hide_border=false&include_all_commits=true&count_private=true) | ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true) | -->
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="./generated/overview.svg" alt="GitHub Metrics Overview" />
+</p>
+
+<p align="center">
+  <img src="./generated/languages.svg" alt="Most Used Languages" />
+</p>
 
 <!-- Streak Stats (this stays external – correct as-is) -->
 ![](https://streak-stats.demolab.com/?user=anoopsinghtomar&cache_seconds=86400)
