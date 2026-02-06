@@ -77,10 +77,11 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 |----------|-----------|
 | ![](https://profile-readme-analytics.vercel.app/api?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&hide_border=false&include_all_commits=true&count_private=true) | ![](https://profile-readme-analytics.vercel.app/api/top-langs/?username=anoopsinghtomar&title_color=FF9933&text_color=138808&icon_color=000080&bg_color=FFFFFF&layout=compact&hide_border=false&count_private=true) | -->
 
-## 📊 GitHub Stats
+## 📊 GitHub Metrics
 
-![GitHub Overview](./generated/overview.svg)
-![Languages](./generated/languages.svg)
+<img src="generated/overview.svg" alt="GitHub overview metrics" />
+<br/>
+<img src="generated/languages.svg" alt="GitHub language metrics" />
 
 <!-- Streak Stats (this stays external – correct as-is) -->
 ![](https://streak-stats.demolab.com/?user=anoopsinghtomar&cache_seconds=86400)
