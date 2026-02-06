@@ -36,9 +36,6 @@ I specialize in building **intelligent, autonomous test automation systems** by 
   </a>
 </p>  
 
-<!--! # 💻 Tech Stack:
-[Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=flat&logo=apachekafka) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat&logo=jenkins&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white) -->
-
 ## 🖥️ Tech Stack
 
 ### 🚀 Programming Languages
@@ -73,15 +70,11 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 
 ## 📊 GitHub Metrics
 
-## 📊 GitHub Metrics
-
 <img
   src="https://raw.githubusercontent.com/anoopsinghtomar/anoopsinghtomar/main/generated/overview.svg"
   alt="GitHub Overview Metrics"
 />
-
 <br/>
-
 <img
   src="https://raw.githubusercontent.com/anoopsinghtomar/anoopsinghtomar/main/generated/languages.svg"
   alt="GitHub Language Metrics"
