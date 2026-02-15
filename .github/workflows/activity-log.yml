@@ -147,19 +147,20 @@ jobs:
           echo "" >> $MARKDOWN_FILE
 
           jq -r '
-          sort_by(.repository) |
-          group_by(.repository)[] |
-          "<details>\n<summary>🚀 " + .[0].repository + "</summary>\n\n" +
+          unique_by(.sha)
+          | sort_by(.repository, .date)
+          | group_by(.repository)[]
+          | "<details>\n<summary>🚀 " + .[0].repository + "</summary>\n\n" +
           "| Commit Message | Date | Link |\n" +
           "|---------------|------|------|\n" +
           (
           sort_by(.date) | reverse | .[] |
-          "| " + (.commit_message | gsub("\n"; " ")) +
+          "| " + (.commit_message | gsub("\n"; " ") | gsub("\\|"; "\\|")) +
           " | " + (.date[0:10]) +
           " | [🔗 View](" + .url + ") |"
           )
           + "\n\n</details>\n\n---\n"
-          ' $TEMP_FILE >> $MARKDOWN_FILE
+          ' $MASTER_FILE >> $MARKDOWN_FILE
 
           echo "" >> $MARKDOWN_FILE
           echo "### ✅ Summary" >> $MARKDOWN_FILE
