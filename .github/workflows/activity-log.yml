@@ -1,11 +1,11 @@
-name: Generate Private JSON Activity Log
+name: Generate Monthly Activity Report
 
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: "0 0 * * 0"   # Weekly (Sunday UTC)
+    - cron: "0 0 1 * *"   # Runs on 1st of every month (00:00 UTC)
   workflow_dispatch:
     inputs:
       start_date:
@@ -33,7 +33,7 @@ jobs:
             END="${{ github.event.inputs.end_date }}"
           else
             END=$(date -u +"%Y-%m-%d")
-            START=$(date -u -d "15 days ago" +"%Y-%m-%d")
+            START=$(date -u -d "30 days ago" +"%Y-%m-%d")
           fi
 
           echo "START_DATE=$START" >> $GITHUB_ENV
@@ -114,16 +114,41 @@ jobs:
             echo "[]" > $MASTER_FILE
           fi
 
-          # Merge new data and remove duplicates using SHA
+          # Merge new data and remove duplicates
           jq -s 'add | unique_by(.sha)' $MASTER_FILE $TEMP_FILE > merged.json
           mv merged.json $MASTER_FILE
 
-          # Create Markdown snapshot from NEW data only
-          echo "# Activity Log – $(date +'%d-%m-%Y')" > $MARKDOWN_FILE
+          # Generate UI-Friendly Markdown Report
+          TOTAL_COMMITS=$(jq length $TEMP_FILE)
+          REPO_COUNT=$(jq -r '.[].repository' $TEMP_FILE | sort | uniq | wc -l)
+
+          echo "# 📊 Monthly Activity Report" > $MARKDOWN_FILE
+          echo "" >> $MARKDOWN_FILE
+          echo "**Date Range:** ${START_DATE} → ${END_DATE}" >> $MARKDOWN_FILE
+          echo "**Generated On:** $(date +'%d-%m-%Y')" >> $MARKDOWN_FILE
+          echo "**Total Commits:** ${TOTAL_COMMITS}" >> $MARKDOWN_FILE
+          echo "" >> $MARKDOWN_FILE
+          echo "---" >> $MARKDOWN_FILE
           echo "" >> $MARKDOWN_FILE
 
-          jq -r '.[] |
-          "## \(.repository)\n- \(.commit_message)\n  - Date: \(.date)\n  - Author: \(.author)\n  - [View Commit](\(.url))\n"' $TEMP_FILE >> $MARKDOWN_FILE
+          jq -r '
+          group_by(.repository)[] |
+          "## 🚀 Repository: " + .[0].repository + "\n\n" +
+          "| Commit Message | Date | Link |\n" +
+          "|---------------|------|------|\n" +
+          (
+            .[] |
+            "| " + (.commit_message | gsub("\n"; " ")) +
+            " | " + (.date[0:10]) +
+            " | [🔗 View](" + .url + ") |"
+          )
+          + "\n\n---\n"
+          ' $TEMP_FILE >> $MARKDOWN_FILE
+
+          echo "" >> $MARKDOWN_FILE
+          echo "### ✅ Summary" >> $MARKDOWN_FILE
+          echo "- Repositories Worked On: ${REPO_COUNT}" >> $MARKDOWN_FILE
+          echo "- Total Commits: ${TOTAL_COMMITS}" >> $MARKDOWN_FILE
 
           git config user.name "github-actions"
           git config user.email "actions@github.com"
@@ -133,6 +158,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update activity log $(date +'%d-%m-%Y')"
+            git commit -m "Update monthly activity report $(date +'%d-%m-%Y')"
             git push
           fi
