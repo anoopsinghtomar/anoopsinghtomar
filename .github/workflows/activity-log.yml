@@ -118,22 +118,38 @@ jobs:
           jq -s 'add | unique_by(.sha)' $MASTER_FILE $TEMP_FILE > merged.json
           mv merged.json $MASTER_FILE
 
-          # Generate UI-Friendly Markdown Report
           TOTAL_COMMITS=$(jq length $TEMP_FILE)
-          REPO_COUNT=$(jq -r '.[].repository' $TEMP_FILE | sort | uniq | wc -l)
+          REPO_COUNT=$(jq -r '.[].repository' $TEMP_FILE | sort -u | wc -l)
+
+          # Calculate Performance Score
+          if [ "$TOTAL_COMMITS" -le 5 ]; then
+            SCORE="4 / 10"
+          elif [ "$TOTAL_COMMITS" -le 15 ]; then
+            SCORE="7 / 10"
+          elif [ "$TOTAL_COMMITS" -le 30 ]; then
+            SCORE="8.5 / 10"
+          else
+            SCORE="10 / 10"
+          fi
+
+          # ------------------------------
+          # Generate Final Markdown File
+          # ------------------------------
 
           echo "# 📊 Monthly Activity Report" > $MARKDOWN_FILE
           echo "" >> $MARKDOWN_FILE
-          echo "**Date Range:** ${START_DATE} → ${END_DATE}" >> $MARKDOWN_FILE
-          echo "**Generated On:** $(date +'%d-%m-%Y')" >> $MARKDOWN_FILE
-          echo "**Total Commits:** ${TOTAL_COMMITS}" >> $MARKDOWN_FILE
+          echo "**Date Range:** ${START_DATE} → ${END_DATE}  " >> $MARKDOWN_FILE
+          echo "**Generated On:** $(date +'%d-%m-%Y')  " >> $MARKDOWN_FILE
+          echo "**Total Commits:** ${TOTAL_COMMITS}  " >> $MARKDOWN_FILE
+          echo "**Repositories Worked On:** ${REPO_COUNT}  " >> $MARKDOWN_FILE
           echo "" >> $MARKDOWN_FILE
           echo "---" >> $MARKDOWN_FILE
           echo "" >> $MARKDOWN_FILE
 
           jq -r '
+          sort_by(.date) | reverse |
           group_by(.repository)[] |
-          "## 🚀 Repository: " + .[0].repository + "\n\n" +
+          "<details>\n<summary>🚀 " + .[0].repository + "</summary>\n\n" +
           "| Commit Message | Date | Link |\n" +
           "|---------------|------|------|\n" +
           (
@@ -142,13 +158,25 @@ jobs:
             " | " + (.date[0:10]) +
             " | [🔗 View](" + .url + ") |"
           )
-          + "\n\n---\n"
+          + "\n\n</details>\n\n---\n"
           ' $TEMP_FILE >> $MARKDOWN_FILE
 
           echo "" >> $MARKDOWN_FILE
           echo "### ✅ Summary" >> $MARKDOWN_FILE
-          echo "- Repositories Worked On: ${REPO_COUNT}" >> $MARKDOWN_FILE
+          echo "" >> $MARKDOWN_FILE
           echo "- Total Commits: ${TOTAL_COMMITS}" >> $MARKDOWN_FILE
+          echo "- Repositories Worked On: ${REPO_COUNT}" >> $MARKDOWN_FILE
+          echo "" >> $MARKDOWN_FILE
+          echo "---" >> $MARKDOWN_FILE
+          echo "" >> $MARKDOWN_FILE
+          echo "## 🏆 Monthly Performance Score: ${SCORE}" >> $MARKDOWN_FILE
+          echo "" >> $MARKDOWN_FILE
+          echo "Scoring Logic:" >> $MARKDOWN_FILE
+          echo "" >> $MARKDOWN_FILE
+          echo "- 0–5 commits → 4/10" >> $MARKDOWN_FILE
+          echo "- 6–15 commits → 7/10" >> $MARKDOWN_FILE
+          echo "- 16–30 commits → 8.5/10" >> $MARKDOWN_FILE
+          echo "- 31+ commits → 10/10" >> $MARKDOWN_FILE
 
           git config user.name "github-actions"
           git config user.email "actions@github.com"
