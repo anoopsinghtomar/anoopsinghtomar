@@ -1,8 +1,11 @@
 name: Generate Private JSON Activity Log
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: "0 0 * * 0"   # Weekly (Sunday)
+    - cron: "0 0 * * 0"   # Weekly (Sunday UTC)
   workflow_dispatch:
     inputs:
       start_date:
@@ -17,11 +20,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Install jq
-        run: sudo apt-get install jq -y
+        run: sudo apt-get update && sudo apt-get install jq -y
 
       - name: Set Date Range
-        id: daterange
         run: |
           if [ -n "${{ github.event.inputs.start_date }}" ]; then
             START="${{ github.event.inputs.start_date }}"
@@ -38,7 +43,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.METRICS_CLASSIC_TOKEN }}
         run: |
-          OUTPUT="activity-log-$(date +'%d-%m-%Y').json"
+          OUTPUT="new-activity.json"
           echo "[]" > $OUTPUT
 
           page=1
@@ -73,6 +78,7 @@ jobs:
               fi
 
               echo "$commits" | jq -c --arg repo "$repo" '.[] | {
+                sha: .sha,
                 repository: $repo,
                 commit_message: .commit.message,
                 author: .commit.author.name,
@@ -90,16 +96,43 @@ jobs:
 
           echo "OUTPUT_FILE=$OUTPUT" >> $GITHUB_ENV
 
-      - name: Clone Private Repo
+      - name: Update Target Repository
         env:
           GH_PAT: ${{ secrets.METRICS_CLASSIC_TOKEN }}
         run: |
           git clone https://x-access-token:$GH_PAT@github.com/anoopsinghtomar/learning-resources.git
           cd learning-resources
           mkdir -p activityFile
-          cp ../$OUTPUT_FILE activityFile/
+          cd activityFile
+
+          MASTER_FILE="activity.json"
+          TEMP_FILE="../../${OUTPUT_FILE}"
+          MARKDOWN_FILE="activity-$(date +'%d-%m-%Y').md"
+
+          # Create master JSON if not exists
+          if [ ! -f "$MASTER_FILE" ]; then
+            echo "[]" > $MASTER_FILE
+          fi
+
+          # Merge new data and remove duplicates using SHA
+          jq -s 'add | unique_by(.sha)' $MASTER_FILE $TEMP_FILE > merged.json
+          mv merged.json $MASTER_FILE
+
+          # Create Markdown snapshot from NEW data only
+          echo "# Activity Log – $(date +'%d-%m-%Y')" > $MARKDOWN_FILE
+          echo "" >> $MARKDOWN_FILE
+
+          jq -r '.[] |
+          "## \(.repository)\n- \(.commit_message)\n  - Date: \(.date)\n  - Author: \(.author)\n  - [View Commit](\(.url))\n"' $TEMP_FILE >> $MARKDOWN_FILE
+
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add activityFile/$OUTPUT_FILE
-          git commit -m "Add activity log $OUTPUT_FILE"
-          git push
+
+          git add $MASTER_FILE $MARKDOWN_FILE
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update activity log $(date +'%d-%m-%Y')"
+            git push
+          fi
