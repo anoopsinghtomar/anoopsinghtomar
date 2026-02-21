@@ -12,6 +12,12 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 - 🌐 **Web & REST API automation at scale**
 ---
 
+## 🔬 Current Focus
+- Building autonomous QA agents using LLMs with planning, memory, and tool-use capabilities
+- Experimenting with agent orchestration frameworks (e.g., LangGraph-style workflows, CrewAI, AutoGen) for collaborative QA tasks
+- Self-healing and adaptive automation frameworks
+---
+
 ## 🖥️ Tech Stack
 
 | **Domain**                            | **Tools & Technologies**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -43,12 +49,6 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 
 ---
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anoopsinghtomar&theme=minimal)
-
-## 🔬 Current Focus
-- Building autonomous QA agents using LLMs with planning, memory, and tool-use capabilities
-- Experimenting with agent orchestration frameworks (e.g., LangGraph-style workflows, CrewAI, AutoGen) for collaborative QA tasks
-- Self-healing and adaptive automation frameworks
----
 
 ## ✨ Philosophy
 > *Quality engineering should be adaptive, data-informed, and intelligent — not just automated.* 
