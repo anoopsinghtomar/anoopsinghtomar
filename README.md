@@ -12,30 +12,6 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 - 🌐 **Web & REST API automation at scale**
 ---
 
-## 🔬 Current Focus
-- Building autonomous QA agents using LLMs with planning, memory, and tool-use capabilities
-- Experimenting with agent orchestration frameworks (e.g., LangGraph-style workflows, CrewAI, AutoGen) for collaborative QA tasks
-- Self-healing and adaptive automation frameworks
----
-
-## ✨ Philosophy
-> *Quality engineering should be adaptive, data-informed, and intelligent — not just automated.* 
-
-## 🌐 Socials:
-<p>
-  <a href="https://www.facebook.com/anoop.singh.338" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" />
-  </a>
-
-  <a href="https://linkedin.com/in/anoopsinghtomar/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
-  </a>
-
-  <a href="https://www.hackerrank.com/profile/anoop5445" target="_blank" rel="noopener noreferrer">
-    <img src="misc/hckr.png" alt="HackerRank" height="20" />
-  </a>
-</p>  
-
 ## 🖥️ Tech Stack
 
 | **Domain**                            | **Tools & Technologies**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -67,6 +43,30 @@ I specialize in building **intelligent, autonomous test automation systems** by 
 
 ---
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anoopsinghtomar&theme=minimal)
+
+## 🔬 Current Focus
+- Building autonomous QA agents using LLMs with planning, memory, and tool-use capabilities
+- Experimenting with agent orchestration frameworks (e.g., LangGraph-style workflows, CrewAI, AutoGen) for collaborative QA tasks
+- Self-healing and adaptive automation frameworks
+---
+
+## ✨ Philosophy
+> *Quality engineering should be adaptive, data-informed, and intelligent — not just automated.* 
+
+## 🌐 Socials:
+<p>
+  <a href="https://www.facebook.com/anoop.singh.338" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" />
+  </a>
+
+  <a href="https://linkedin.com/in/anoopsinghtomar/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="https://www.hackerrank.com/profile/anoop5445" target="_blank" rel="noopener noreferrer">
+    <img src="misc/hckr.png" alt="HackerRank" height="20" />
+  </a>
+</p>  
 
 [![](https://visitcount.itsvg.in/api?id=anoopsinghtomar&icon=0&color=1)](https://visitcount.itsvg.in)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anoopsinghtomar&label=Profile%20views&color=0e75b6&style=flat" alt="anoopsinghtomar" /> </p>
