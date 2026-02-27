@@ -1,8 +1,6 @@
 # 👋 Hi, I'm Anoop Singh Tomar
 
-🚀 **Building intelligent test automation using Data Science and Agentic AI | QA Automation | Java, Python, Selenium, API**
-
-I specialize in building **intelligent, autonomous test automation systems** by combining **traditional QA engineering**, **data science**, and **Agentic AI / LLM-driven workflows**. My focus is on creating **self-optimizing, scalable, and resilient quality engineering platforms** for modern software systems.
+🚀 I specialize in building **intelligent, autonomous test automation systems** by combining **traditional QA engineering**, **data science**, and **Agentic AI / LLM-driven workflows**. My focus is on creating **self-optimizing, scalable, and resilient quality engineering platforms** for modern software systems.
 ---
 
 ## 🧠 What I Work On
