@@ -4,7 +4,7 @@
 ---
 
 ## 🧠 What I Work On
-- 🤖 Develop **Agentic AI–driven test automation**
+- 🤖 Developing **Agentic AI–driven test automation**
 - 🧪 **AI-assisted test generation, prioritization & optimization**
 - 📊 **Data-driven & statistical testing strategies** for smarter quality insights
 - 🌐 **Web & REST API automation at scale**
