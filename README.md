@@ -60,10 +60,6 @@
   <a href="https://linkedin.com/in/anoopsinghtomar/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
   </a>
-
-  <a href="https://www.hackerrank.com/profile/anoop5445" target="_blank" rel="noopener noreferrer">
-    <img src="misc/hckr.png" alt="HackerRank" height="20" />
-  </a>
 </p>  
 
 [![](https://visitcount.itsvg.in/api?id=anoopsinghtomar&icon=0&color=1)](https://visitcount.itsvg.in)
