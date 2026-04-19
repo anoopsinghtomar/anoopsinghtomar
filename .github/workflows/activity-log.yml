@@ -41,7 +41,7 @@ jobs:
 
       - name: Generate JSON Activity Log
         env:
-          GH_PAT: ${{ secrets.METRICS_CLASSIC_TOKEN }}
+          GH_PAT: ${{ secrets.METRICS_CLASSIC_TOKEN_19042026 }}
         run: |
           OUTPUT="new-activity.json"
           echo "[]" > $OUTPUT
