@@ -21,7 +21,7 @@ jobs:
       - name: Generate overview metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_CLASSIC_TOKEN }}
+          token: ${{ secrets.METRICS_CLASSIC_TOKEN_19042026 }}
           filename: generated/overview.svg
 
           base: header, repositories
@@ -33,7 +33,7 @@ jobs:
       - name: Generate language metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_CLASSIC_TOKEN }}
+          token: ${{ secrets.METRICS_CLASSIC_TOKEN_19042026 }}
           filename: generated/languages.svg
 
           base: ""
