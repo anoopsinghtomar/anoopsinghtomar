@@ -98,7 +98,7 @@ jobs:
 
       - name: Update Target Repository
         env:
-          GH_PAT: ${{ secrets.METRICS_CLASSIC_TOKEN }}
+          GH_PAT: ${{ secrets.METRICS_CLASSIC_TOKEN_19042026 }}
         run: |
           git clone https://x-access-token:$GH_PAT@github.com/anoopsinghtomar/learning-resources.git
           cd learning-resources
