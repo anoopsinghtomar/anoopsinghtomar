@@ -62,6 +62,59 @@
   </a>
 </p>  
 
+<details>
+<summary>📁 My GitHub Project Index (Click to Expand)</summary>
+
+---
+
+# 🧠 AI / GenAI / Agentic Systems
+- [genai-agentic-ai-playground](https://github.com/anoopsinghtomar/genai-agentic-ai-playground)
+- [agentic-ai-framework](https://github.com/anoopsinghtomar/agentic-ai-framework)
+- [multi-agent-rag-vectordb](https://github.com/anoopsinghtomar/multi-agent-rag-vectordb)
+- [ai-test-masters](https://github.com/anoopsinghtomar/ai-test-masters)
+- [deta-science](https://github.com/anoopsinghtomar/deta-science)
+
+---
+
+# 🤖 Automation / Testing
+- [Selenium4WebAutomation](https://github.com/anoopsinghtomar/Selenium4WebAutomation)
+- [RestAPIAutomation](https://github.com/anoopsinghtomar/RestAPIAutomation)
+- [RestAssured-APIAutomation](https://github.com/anoopsinghtomar/RestAssured-APIAutomation)
+- [robot-test-automation](https://github.com/anoopsinghtomar/robot-test-automation)
+- [PythonAutomationFramework](https://github.com/anoopsinghtomar/PythonAutomationFramework)
+- [vibium-agentkit](https://github.com/anoopsinghtomar/vibium-agentkit)
+
+---
+
+# 📚 Learning
+- [learning-resources](https://github.com/anoopsinghtomar/learning-resources)
+- [java-learning-path](https://github.com/anoopsinghtomar/java-learning-path)
+- [pythonlearning](https://github.com/anoopsinghtomar/pythonlearning)
+
+---
+
+# 🏗 Backend / APIs
+- [core-service-api](https://github.com/anoopsinghtomar/core-service-api)
+- [Financial-DocsVault](https://github.com/anoopsinghtomar/Financial-DocsVault)
+
+---
+
+# 🧪 Experimental
+- pure-claw-code
+- oh-my-claudecode
+- claude-code-lad
+- everything-claude-code
+
+---
+
+# 🌐 Portfolio
+- [anoopsinghtomar.github.io](https://github.com/anoopsinghtomar/anoopsinghtomar.github.io)
+- [anoopsinghtomar](https://github.com/anoopsinghtomar/anoopsinghtomar)
+
+---
+
+</details>
+
 [![](https://visitcount.itsvg.in/api?id=anoopsinghtomar&icon=0&color=1)](https://visitcount.itsvg.in)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anoopsinghtomar&label=Profile%20views&color=0e75b6&style=flat" alt="anoopsinghtomar" /> </p>
 
