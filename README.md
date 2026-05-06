@@ -68,6 +68,7 @@
 ---
 
 # 🧠 AI / GenAI / Agentic Systems
+- [ai-test-automation-framework](https://github.com/anoopsinghtomar/ai-test-automation-framework)
 - [genai-agentic-ai-playground](https://github.com/anoopsinghtomar/genai-agentic-ai-playground)
 - [agentic-ai-framework](https://github.com/anoopsinghtomar/agentic-ai-framework)
 - [multi-agent-rag-vectordb](https://github.com/anoopsinghtomar/multi-agent-rag-vectordb)
