@@ -63,7 +63,7 @@
 </p>  
 
 <details>
-<summary>📁 My GitHub Project Index (Click to Expand)</summary>
+<summary>📁 GitHub Project Index (Click to Expand)</summary>
 
 ---
 
