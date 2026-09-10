@@ -49,7 +49,8 @@
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anoopsinghtomar&theme=minimal)
 
 ## ✨ Philosophy
-> *Quality engineering should be adaptive, data-informed, and intelligent — not just automated.* 
+> *Quality engineering should be adaptive, data-informed, and intelligent — not just automated.*
+> *Make today as turning point, start taking wiser decisions and different steps.*
 
 ## 🌐 Socials:
 <p>
